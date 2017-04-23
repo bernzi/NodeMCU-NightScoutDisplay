@@ -15,7 +15,7 @@ Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale da
 * wifi is required<br />
 
 # Directions
-1. Download this repo [NodeMCU-Wixel repository](https://github.com/shelsgit/NodeMCU-NightScoutDisplay) and extract the files 
+1. Download this repo [NodeMCU-NightScoutDisplay](https://github.com/shelsgit/NodeMCU-NightScoutDisplay) and extract the files 
 2. Open the NightSout.lua file: line 20, and change any other constants you want to change in the "--constants" section (starting on line 19)(and save file)
 3. Open the init.lua file and enter your WIFI info (ip, netmask, gateway, wifissid, wifiPassword) (and save file)
 4. Wire together (solder or use breadboard) the Display and WIFI NodeMCU (see 'Components/Wiring' section above)
