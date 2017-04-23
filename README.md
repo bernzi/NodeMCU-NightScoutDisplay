@@ -37,12 +37,13 @@ Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale da
    * Click the 'Upload button' and upload the (2) lua files (from this repo, which you downloaded in step1: /NodeMCU-lua/NightScout.lua and /NodeMCU-lua/init.lua)
    * Click the reset button on the NodeMCU (you should see "WiFi connection established, IP address: " and "You have 5 seconds to abort", and more ongoing scrolling messages afterwards to know it's working, and ready to unplug and use wherever you want to put it that has a wifi connection)
 
-# Disclaimers and Known Issues
+# Disclaimer, Known Issues
 This project is for research only.  Don't use it for any medical decisions.<br />
-This is my first first time programming anything real from scratch.  I'm sure it can use improvements!  It seems to work ok (but includes a workaround to reset the nodeMCU after continued failed https connection attempts, and you'll see 'Loading...'!)
+This is my first first time programming anything real from scratch.  I'm sure it can use improvements!  It seems to work ok (but includes a workaround to reset the nodeMCU after continued failed https connection attempts, and you'll see 'Loading...'!)<br />
+This display is only 0.95" wide and is good for a nighstand, but you'd probably want to use (and modify code) for a larger display/ to display larger/ further away
 
 # Acknowledgements
 1. This project relies on [The Nightscout Project](http://www.nightscout.info/) - Thanks to them for helping so many people - Please consider [donating to NightScout](http://www.nightscoutfoundation.org/donate/)<br />
 2. This project works well with [NodeMCU-Wixel](https://github.com/MrPsi/NodeMCU-Wixel/blob/master/README.md) - No need to carry a receive and phone (or display!) around the house with you<br />
-3. Instead of using this project, you could, instead, display your Nightscout data using an old phone or tablet - [Nightscout Remote Monitor](https://github.com/nightscout/cgm-remote-monitor), a nice large colorful display with arrow instead: [Nightscout Remote Monitor](https://github.com/sarahspins/cgm-remote-monitor/tree/dev/static)<br />
-4. Instead of using this project, you could, instead, display your Nightscout data using arduiono and Adafruit hardware - [Ruuddotorg NS Display](https://github.com/ruuddotorg/nightscout-display)<br />
+3. If you have an old phone or tablet around and don't mind forcing it on all the time, you could, instead of this project, just display your Nightscout data on it, using [Nightscout Remote Monitor](https://github.com/nightscout/cgm-remote-monitor).  Or use this large colorful with BG and arrow instead: [Nightscout Remote Monitor](https://github.com/sarahspins/cgm-remote-monitor/tree/dev/static)<br />
+4. Instead of using this project, you could, makde a display of your Nightscout data using arduiono and Adafruit Featherwing hardware (although a bit pricier) - [Ruuddotorg NS Display](https://github.com/ruuddotorg/nightscout-display)<br />
