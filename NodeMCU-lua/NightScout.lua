@@ -9,7 +9,7 @@
 --          D2 on WIFI NodeMCU -to- SCL on Display
 --         3V3 on WIFI NodeMCU -to- GND on Display
 --         GND on WIFI NodeMCU -to- VCC on Display
---         MicroUSB into -to- 
+--         MicroUSB(plugged into computer or outlet) -to- WIFI NodeMCU USB port
 
 -- Directions:
 -- 1) Wire Display and WIFI NodeMCU as above
