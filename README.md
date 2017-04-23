@@ -40,7 +40,7 @@ Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale da
 # Disclaimer, Known Issues
 This project is for research only.  Don't use it for any medical decisions.<br />
 This is my first first time programming anything real from scratch.  I'm sure it can use improvements!  It seems to work ok (but includes a workaround to reset the nodeMCU after continued failed https connection attempts, and you'll see 'Loading...'!)<br />
-This display is only 0.95" wide and is good for a nighstand, but you'd probably want to use (and modify code) for a larger display/ to display larger/ further away
+This display is only 0.95" wide - you'd probably want to use (and modify code for) a larger display if you want to see it further than a few feet away
 
 # Acknowledgements
 1. This project relies on [The Nightscout Project](http://www.nightscout.info/) - Thanks to them for helping so many people - Please consider [donating to NightScout](http://www.nightscoutfoundation.org/donate/)<br />
