@@ -44,6 +44,6 @@ This display is only 0.95" wide - you'd probably want to use (and modify code fo
 
 # Acknowledgements
 1. This project relies on [The Nightscout Project](http://www.nightscout.info/) - Thanks to them for helping so many people - Please consider [donating to NightScout](http://www.nightscoutfoundation.org/donate/)<br />
-2. Instead of using this project, you could, makde a display of your Nightscout data using arduiono and Adafruit Featherwing hardware (although a bit pricier) - [ruuddotorg/nightscout-display](https://github.com/ruuddotorg/nightscout-display)<br />
+2. Instead of using this project, you could, make a display of your Nightscout data using arduiono and Adafruit Featherwing hardware (a bit pricier, but looks cool and is bigger) - [ruuddotorg/nightscout-display](https://github.com/ruuddotorg/nightscout-display)<br />
 3. If you have an old phone or tablet around and don't mind forcing it on all the time, you could, instead of this project, just display your Nightscout data on it, using [Nightscout Remote Monitor](https://github.com/nightscout/cgm-remote-monitor).  Or use this large colorful with BG and arrow instead: [Nightscout Remote Monitor](https://github.com/sarahspins/cgm-remote-monitor/tree/dev/static)<br />
 4. [NodeMCU-Wixel](https://github.com/MrPsi/NodeMCU-Wixel/blob/master/README.md) - Allows you to not carry a G4 receiver and phone around the house with you!, using xdrip, xdrip wixel, and NodeMCU with lua<br />
