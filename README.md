@@ -2,7 +2,7 @@
 Display Nightscout data using a cheap NodeMCU and OLED display (instead of using an old phone or tablet).<br /><br />
 Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale data indication(value crossed out if NS data is old), displays 'Loading' when data is old due to repeated wifi connection attempts
 
-# Components/Wiring
+# Components/Wiring/Requirements
 * Display: [0.96" Inch Yellow Blue I2c IIC Serial Oled](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30)
 * WIFI NodeMCU: [NodeMCU LUA ESP8266](http://www.ebay.co.uk/itm/NodeMCU-LUA-WIFI-Internet-Development-Board-Based-on-ESP8266-/291505733201?hash=item43df187e51:g:iikAAOSwHPlWeoBr)
 * MicroUSB Cable
@@ -11,7 +11,8 @@ Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale da
 ** D2 on WIFI NodeMCU -to- SCL on Display<br />
 ** 3V3 on WIFI NodeMCU -to- GND on Display<br />
 ** GND on WIFI NodeMCU -to- VCC on Display<br />
-** MicroUSB(powered/plugged into wall or computer, ect) -to- WIFI NodeMCU USB port
+** MicroUSB(powered/plugged into wall or computer, ect) -to- WIFI NodeMCU USB port<br />
+* wifi is required<br />
 
 # Directions
 1. Download this repo [NodeMCU-Wixel repository](https://github.com/shelsgit/NodeMCU-NightScoutDisplay) and extract the files 
