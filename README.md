@@ -42,9 +42,7 @@ This project is for research only.  Don't use it for any medical decisions.<br /
 This is my first first time programming anything real from scratch.  I'm sure it can use improvements!  It seems to work ok (but includes a workaround to reset the nodeMCU after continued failed https connection attempts, and you'll see 'Loading...'!)
 
 # Acknowledgements
-This project relies on [The Nightscout Project](http://www.nightscout.info/) - Thanks to them for helping so many people - Please consider [donating to NightScout](http://www.nightscoutfoundation.org/donate/)<br />
-This project works well with [NodeMCU-Wixel](https://github.com/MrPsi/NodeMCU-Wixel/blob/master/README.md) - No need to carry a receive and phone (or display!) around the house with you<br />
-Instead of using this project, you could display your Nightscout data using an old phone or tablet - [Nightscout Remote Monitor](https://github.com/nightscout/cgm-remote-monitor), a nice large colorful display with arrow instead: [Nightscout Remote Monitor](https://github.com/sarahspins/cgm-remote-monitor/tree/dev/static)<br />
-Instead of using this project, you could display your Nightscout data using arduiono and Adafruit hardware - [Ruuddotorg NS Display](https://github.com/ruuddotorg/nightscout-display)<br />
-
-
+1. This project relies on [The Nightscout Project](http://www.nightscout.info/) - Thanks to them for helping so many people - Please consider [donating to NightScout](http://www.nightscoutfoundation.org/donate/)<br />
+2. This project works well with [NodeMCU-Wixel](https://github.com/MrPsi/NodeMCU-Wixel/blob/master/README.md) - No need to carry a receive and phone (or display!) around the house with you<br />
+3. Instead of using this project, you could, instead, display your Nightscout data using an old phone or tablet - [Nightscout Remote Monitor](https://github.com/nightscout/cgm-remote-monitor), a nice large colorful display with arrow instead: [Nightscout Remote Monitor](https://github.com/sarahspins/cgm-remote-monitor/tree/dev/static)<br />
+4. Instead of using this project, you could, instead, display your Nightscout data using arduiono and Adafruit hardware - [Ruuddotorg NS Display](https://github.com/ruuddotorg/nightscout-display)<br />
