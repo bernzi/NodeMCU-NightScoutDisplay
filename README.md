@@ -1,5 +1,5 @@
 # NodeMCU-NightScoutDisplay
-Display Nightscout data using a cheap NodeMCU and OLED display (instead of using an old phone or tablet).
+Display Nightscout data using a cheap NodeMCU and OLED display (instead of using an old phone or tablet).<br />
 Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale data indication(value crossed out if NS data is old), displays 'Loading' when data is old due to repeated wifi connection attempts
 
 # Components/Wiring
