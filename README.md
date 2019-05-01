@@ -9,10 +9,13 @@ Displays: NS BG with direction arrow, yellow hihi,high,low,lolo alarms, stale da
 * Wiring:<br />
 ** D1 on WIFI NodeMCU -to- SDA on Display<br />
 ** D2 on WIFI NodeMCU -to- SCL on Display<br />
-** 3V3 on WIFI NodeMCU -to- GND on Display<br />
-** GND on WIFI NodeMCU -to- VCC on Display<br />
+** 3V3 on WIFI NodeMCU -to- VCC on Display<br />
+** GND on WIFI NodeMCU -to- GND on Display<br />
 ** MicroUSB(powered/plugged into wall or computer, ect) -to- WIFI NodeMCU USB port<br />
 * wifi is required<br />
+
+insert a new line #59
+print(payload)
 
 # Directions
 1. Download this repo [NodeMCU-NightScoutDisplay](https://github.com/shelsgit/NodeMCU-NightScoutDisplay) and extract the files 
